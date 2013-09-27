@@ -1,5 +1,8 @@
 Checkbook::Application.routes.draw do
 
+  resources :accounts
+
+
   get "welcome/index"
 
   devise_for :users
